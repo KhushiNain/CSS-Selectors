@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+    color: rgb(62, 62, 62);
+}
+
+.main-header{
+    background-color: rgba(0 , 0, 0, 0.6);
+    background-image: url(../img/Header\ Background.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+html body{
+    margin: 0%;
+    padding: 0%;
+}
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+    padding: 1.5%;
+}
+.nav a{
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+ }
+
+.nav a:hover{
+    background-color:rgba(223, 214, 214, 0.3)
+}
+
+.nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid grey;
+}
+.band-name{
+    text-align: center;
+    font-size: 4em;
+    font-weight: normal;
+    color: white;
+}
+.content-section{
+    margin: 1em;  
+}
+.mid{
+    font-size: 24px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+.mid h2{
+    color: black;
+}
+
+.mid>img{
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h3{
+    color: black;
+    font-size: 28px;
+}
+footer ul{
+    display: flex;
+}
+
